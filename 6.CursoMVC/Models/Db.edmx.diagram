@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="51c2fe3192ba442996e98ca556b25428" Name="Diagram1">
+        <EntityTypeShape EntityType="CursoMVCModel.cstate" Width="1.5" PointX="0.75" PointY="1.25" />
+        <EntityTypeShape EntityType="CursoMVCModel.user" Width="1.5" PointX="3" PointY="0.875" />
+        <AssociationConnector Association="CursoMVCModel.FK_user_cstate" />
+        <EntityTypeShape EntityType="CursoMVCModel.animal" Width="1.5" PointX="8.5" PointY="1.25" />
+        <EntityTypeShape EntityType="CursoMVCModel.animal_class" Width="1.5" PointX="6.25" PointY="1.375" />
+        <AssociationConnector Association="CursoMVCModel.FK_animal_animal_class" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
